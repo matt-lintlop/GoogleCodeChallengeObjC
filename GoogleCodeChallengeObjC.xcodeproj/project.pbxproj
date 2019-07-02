@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10F2B45222CB0D2E00E7CFB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F2B45122CB0D2E00E7CFB9 /* AppDelegate.m */; };
+		10F2B45422CB0D3000E7CFB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10F2B45322CB0D3000E7CFB9 /* Assets.xcassets */; };
+		10F2B45722CB0D3000E7CFB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F2B45522CB0D3000E7CFB9 /* Main.storyboard */; };
+		10F2B45A22CB0D3000E7CFB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F2B45922CB0D3000E7CFB9 /* main.m */; };
+		10F2B46222CB0EDB00E7CFB9 /* StringRotator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 10F2B46122CB0EDB00E7CFB9 /* StringRotator.mm */; };
+		10F2B46922CB175000E7CFB9 /* StringRotatorCPP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10F2B46822CB175000E7CFB9 /* StringRotatorCPP.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10F2B44D22CB0D2E00E7CFB9 /* GoogleCodeChallengeObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleCodeChallengeObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10F2B45022CB0D2E00E7CFB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		10F2B45122CB0D2E00E7CFB9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		10F2B45322CB0D3000E7CFB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10F2B45622CB0D3000E7CFB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10F2B45822CB0D3000E7CFB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10F2B45922CB0D3000E7CFB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10F2B45B22CB0D3000E7CFB9 /* GoogleCodeChallengeObjC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GoogleCodeChallengeObjC.entitlements; sourceTree = "<group>"; };
+		10F2B46122CB0EDB00E7CFB9 /* StringRotator.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = StringRotator.mm; sourceTree = "<group>"; };
+		10F2B46322CB0EF900E7CFB9 /* StringRotator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringRotator.h; sourceTree = "<group>"; };
+		10F2B46722CB175000E7CFB9 /* StringRotatorCPP.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = StringRotatorCPP.hpp; sourceTree = "<group>"; };
+		10F2B46822CB175000E7CFB9 /* StringRotatorCPP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StringRotatorCPP.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10F2B44A22CB0D2E00E7CFB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10F2B44422CB0D2E00E7CFB9 = {
+			isa = PBXGroup;
+			children = (
+				10F2B44F22CB0D2E00E7CFB9 /* GoogleCodeChallengeObjC */,
+				10F2B44E22CB0D2E00E7CFB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10F2B44E22CB0D2E00E7CFB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10F2B44D22CB0D2E00E7CFB9 /* GoogleCodeChallengeObjC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10F2B44F22CB0D2E00E7CFB9 /* GoogleCodeChallengeObjC */ = {
+			isa = PBXGroup;
+			children = (
+				10F2B45022CB0D2E00E7CFB9 /* AppDelegate.h */,
+				10F2B45122CB0D2E00E7CFB9 /* AppDelegate.m */,
+				10F2B46322CB0EF900E7CFB9 /* StringRotator.h */,
+				10F2B46122CB0EDB00E7CFB9 /* StringRotator.mm */,
+				10F2B46822CB175000E7CFB9 /* StringRotatorCPP.cpp */,
+				10F2B46722CB175000E7CFB9 /* StringRotatorCPP.hpp */,
+				10F2B45322CB0D3000E7CFB9 /* Assets.xcassets */,
+				10F2B45522CB0D3000E7CFB9 /* Main.storyboard */,
+				10F2B45822CB0D3000E7CFB9 /* Info.plist */,
+				10F2B45922CB0D3000E7CFB9 /* main.m */,
+				10F2B45B22CB0D3000E7CFB9 /* GoogleCodeChallengeObjC.entitlements */,
+			);
+			path = GoogleCodeChallengeObjC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10F2B44C22CB0D2E00E7CFB9 /* GoogleCodeChallengeObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10F2B45E22CB0D3000E7CFB9 /* Build configuration list for PBXNativeTarget "GoogleCodeChallengeObjC" */;
+			buildPhases = (
+				10F2B44922CB0D2E00E7CFB9 /* Sources */,
+				10F2B44A22CB0D2E00E7CFB9 /* Frameworks */,
+				10F2B44B22CB0D2E00E7CFB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleCodeChallengeObjC;
+			productName = GoogleCodeChallengeObjC;
+			productReference = 10F2B44D22CB0D2E00E7CFB9 /* GoogleCodeChallengeObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10F2B44522CB0D2E00E7CFB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Matt Lintlop";
+				TargetAttributes = {
+					10F2B44C22CB0D2E00E7CFB9 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 10F2B44822CB0D2E00E7CFB9 /* Build configuration list for PBXProject "GoogleCodeChallengeObjC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10F2B44422CB0D2E00E7CFB9;
+			productRefGroup = 10F2B44E22CB0D2E00E7CFB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10F2B44C22CB0D2E00E7CFB9 /* GoogleCodeChallengeObjC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10F2B44B22CB0D2E00E7CFB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10F2B45422CB0D3000E7CFB9 /* Assets.xcassets in Resources */,
+				10F2B45722CB0D3000E7CFB9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10F2B44922CB0D2E00E7CFB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10F2B45A22CB0D3000E7CFB9 /* main.m in Sources */,
+				10F2B45222CB0D2E00E7CFB9 /* AppDelegate.m in Sources */,
+				10F2B46922CB175000E7CFB9 /* StringRotatorCPP.cpp in Sources */,
+				10F2B46222CB0EDB00E7CFB9 /* StringRotator.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		10F2B45522CB0D3000E7CFB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10F2B45622CB0D3000E7CFB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10F2B45C22CB0D3000E7CFB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		10F2B45D22CB0D3000E7CFB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		10F2B45F22CB0D3000E7CFB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GoogleCodeChallengeObjC/GoogleCodeChallengeObjC.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = US5DTPYQ6L;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = GoogleCodeChallengeObjC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.codechallenge.GoogleCodeChallengeObjC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		10F2B46022CB0D3000E7CFB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GoogleCodeChallengeObjC/GoogleCodeChallengeObjC.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = US5DTPYQ6L;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = GoogleCodeChallengeObjC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.codechallenge.GoogleCodeChallengeObjC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10F2B44822CB0D2E00E7CFB9 /* Build configuration list for PBXProject "GoogleCodeChallengeObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10F2B45C22CB0D3000E7CFB9 /* Debug */,
+				10F2B45D22CB0D3000E7CFB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10F2B45E22CB0D3000E7CFB9 /* Build configuration list for PBXNativeTarget "GoogleCodeChallengeObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10F2B45F22CB0D3000E7CFB9 /* Debug */,
+				10F2B46022CB0D3000E7CFB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10F2B44522CB0D2E00E7CFB9 /* Project object */;
+}
