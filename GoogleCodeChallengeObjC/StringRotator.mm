@@ -20,9 +20,10 @@
         
         // find all common strings in the remaining strings
         NSArray<NSString*>* commonRotatedStrings = [self findFirstCommonRotatedStrings:remainingStrings];
-        if (commonRotatedStrings.count >= 1) {
+        const NSUInteger kMinCommonStringsCount = 1;
+        if (commonRotatedStrings.count >= kMinCommonStringsCount) {
             [resultStrings addObject:commonRotatedStrings];
-            if (remainingStrings.count == 1) {
+            if (remainingStrings.count == kMinCommonStringsCount) {
                 return (NSArray<NSArray<NSString*>*>*) resultStrings;
             }
         }
