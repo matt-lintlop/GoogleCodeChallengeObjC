@@ -12,7 +12,7 @@
 @interface StringRotator : NSObject
 
 - (NSArray<NSArray<NSString*>*>*) findAllCommonRotatedStringsWithStrings:(NSArray<NSString*>*)inputStrings;
-- (NSArray<NSString*>*) findCommonRotatedStringsWithStrings:(NSArray<NSString*>*)inputStrings;
+- (NSArray<NSString*>*) findFirstCommonRotatedStrings:(NSArray<NSString*>*)inputStrings;
 - (Boolean) canRotateString:(NSString*)string1 toString:(NSString*)string2;
 
 @end

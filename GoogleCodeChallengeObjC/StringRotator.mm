@@ -16,11 +16,11 @@
 - (NSArray<NSArray<NSString*>*>*) findAllCommonRotatedStringsWithStrings:(NSArray<NSString*>*)inputStrings {
     NSMutableArray<NSArray<NSString*>*>* resultStrings = [[NSMutableArray alloc] init];
     NSMutableArray<NSString*>* remainingStrings = [inputStrings mutableCopy];
-    while (remainingStrings.count >= 1) {
+    const NSUInteger kMinCommonStringsCount = 2;
+    while (remainingStrings.count >= kMinCommonStringsCount) {
         
         // find all common strings in the remaining strings
         NSArray<NSString*>* commonRotatedStrings = [self findFirstCommonRotatedStrings:remainingStrings];
-        const NSUInteger kMinCommonStringsCount = 1;
         if (commonRotatedStrings.count >= kMinCommonStringsCount) {
             [resultStrings addObject:commonRotatedStrings];
             if (remainingStrings.count == kMinCommonStringsCount) {
