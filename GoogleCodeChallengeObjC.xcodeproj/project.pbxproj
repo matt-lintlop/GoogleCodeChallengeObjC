@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10F2B45222CB0D2E00E7CFB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F2B45122CB0D2E00E7CFB9 /* AppDelegate.m */; };
+		10F2B45222CB0D2E00E7CFB9 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 10F2B45122CB0D2E00E7CFB9 /* AppDelegate.mm */; };
 		10F2B45422CB0D3000E7CFB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10F2B45322CB0D3000E7CFB9 /* Assets.xcassets */; };
 		10F2B45722CB0D3000E7CFB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F2B45522CB0D3000E7CFB9 /* Main.storyboard */; };
 		10F2B45A22CB0D3000E7CFB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F2B45922CB0D3000E7CFB9 /* main.m */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		10F2B44D22CB0D2E00E7CFB9 /* GoogleCodeChallengeObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleCodeChallengeObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F2B45022CB0D2E00E7CFB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		10F2B45122CB0D2E00E7CFB9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		10F2B45122CB0D2E00E7CFB9 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		10F2B45322CB0D3000E7CFB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10F2B45622CB0D3000E7CFB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		10F2B45822CB0D3000E7CFB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				10F2B45022CB0D2E00E7CFB9 /* AppDelegate.h */,
-				10F2B45122CB0D2E00E7CFB9 /* AppDelegate.m */,
+				10F2B45122CB0D2E00E7CFB9 /* AppDelegate.mm */,
 				10F2B46322CB0EF900E7CFB9 /* StringRotator.h */,
 				10F2B46122CB0EDB00E7CFB9 /* StringRotator.mm */,
 				10F2B46822CB175000E7CFB9 /* StringRotatorCPP.cpp */,
@@ -145,7 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10F2B45A22CB0D3000E7CFB9 /* main.m in Sources */,
-				10F2B45222CB0D2E00E7CFB9 /* AppDelegate.m in Sources */,
+				10F2B45222CB0D2E00E7CFB9 /* AppDelegate.mm in Sources */,
 				10F2B46922CB175000E7CFB9 /* StringRotatorCPP.cpp in Sources */,
 				10F2B46222CB0EDB00E7CFB9 /* StringRotator.mm in Sources */,
 			);

@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "StringRotator.h"
+#import "StringRotatorCPP.hpp"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,7 @@
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    [self doGoogleCodeChallenge];
+    [self doGoogleCodeChallengeObjC];
 }
 
 
@@ -24,11 +25,11 @@
     // Insert code here to tear down your application
 }
 
-- (void)doGoogleCodeChallenge {
-    NSLog(@"Google Objective-C Code Challenge:");
+- (void)doGoogleCodeChallengeObjC {
     NSArray<NSString *>* inputStrings = @[@"abbc",@"cdde",@"zaab",@"cat",@"thfg",@"ed",@"bzs"];
     StringRotator *stringRotator = [[StringRotator alloc] init];
     NSLog(@"\n\n********************************************************");
+    NSLog(@"Google Objective-C Code Challenge Obj-C:");
     NSLog(@"Input Strings: %@", inputStrings);
     NSArray<NSArray<NSString*>*>* resultStrings = [stringRotator findAllCommonRotatedStringsWithStrings:inputStrings];
     if ((resultStrings != nil) && (resultStrings.count >= 1)) {

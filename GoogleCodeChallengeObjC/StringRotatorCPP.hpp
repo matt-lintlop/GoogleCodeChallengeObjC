@@ -15,7 +15,7 @@
 
 using namespace std;
 
-class StringRotator {
+class StringRotatorCPP {
     
 public:
     vector<vector<char*>*>* findAllCommonRotatedStringsWithStrings(vector<char*>* inputStrings);

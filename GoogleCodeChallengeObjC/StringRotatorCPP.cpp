@@ -8,13 +8,13 @@
 
 #include "StringRotatorCPP.hpp"
 
-vector<vector<char*>*>* StringRotator::findAllCommonRotatedStringsWithStrings(vector<char*>* inputStrings) {
+vector<vector<char*>*>* StringRotatorCPP::findAllCommonRotatedStringsWithStrings(vector<char*>* inputStrings) {
     return NULL;
 }
-vector<char*>* StringRotator::findFirstCommonRotatedStrings(vector<char*>* inputStrings) {
+vector<char*>* StringRotatorCPP::findFirstCommonRotatedStrings(vector<char*>* inputStrings) {
     return NULL;
 }
 
-bool StringRotator::canRotateStrings(char* string1, char*string2) {
+bool StringRotatorCPP::canRotateStrings(char* string1, char*string2) {
     return false;
 }
