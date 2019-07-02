@@ -13,7 +13,7 @@
 
 // Find the first common rotated strings in a list of input strings .
 // Returns an array of common strings.
-- (NSArray<NSString*>*) findFirstCommonRotatedStrings:(NSArray<NSString*>*)inputStrings {
+- (NSArray<NSString*>*) findFirstCommonRotatedStringsWithStrings:(NSArray<NSString*>*)inputStrings {
     if (inputStrings.count  < 2) {
         return inputStrings;
     }
@@ -38,7 +38,7 @@
     while (remainingStrings.count >= kMinCommonStringsCount) {
         
         // find all common strings in the remaining strings
-        NSArray<NSString*>* commonRotatedStrings = [self findFirstCommonRotatedStrings:remainingStrings];
+        NSArray<NSString*>* commonRotatedStrings = [self findFirstCommonRotatedStringsWithStrings:remainingStrings];
         if (commonRotatedStrings.count >= kMinCommonStringsCount) {
             [resultStrings addObject:commonRotatedStrings];
             if (remainingStrings.count == kMinCommonStringsCount) {
