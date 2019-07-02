@@ -10,5 +10,19 @@
 #define StringRotatorCPP_hpp
 
 #include <stdio.h>
+#include <cstdlib>
+#include <vector>
+
+using namespace std;
+
+class StringRotator {
+    
+public:
+    vector<vector<char*>*>* findAllCommonRotatedStringsWithStrings(vector<char*>* inputStrings);
+    vector<char*>* findFirstCommonRotatedStrings(vector<char*>* inputStrings);
+
+private:
+    bool canRotateStrings(char* string1, char*string2);
+};
 
 #endif /* StringRotatorCPP_hpp */
