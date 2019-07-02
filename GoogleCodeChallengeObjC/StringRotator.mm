@@ -11,12 +11,30 @@
 
 @implementation StringRotator
 
+// Find the first common rotated strings in a list of input strings .
+// Returns an array of common strings.
+- (NSArray<NSString*>*) findFirstCommonRotatedStrings:(NSArray<NSString*>*)inputStrings {
+    if (inputStrings.count  < 2) {
+        return inputStrings;
+    }
+    NSString *firstString = inputStrings[0];
+    NSMutableArray<NSString*>* commonStrings = [[NSMutableArray alloc] initWithObjects:firstString, nil];
+    for (NSUInteger index = 1; index < inputStrings.count; index++) {
+        NSString *inputString = inputStrings[index];
+        if ([self canRotateString:firstString toString:inputString]) {
+            [commonStrings addObject:inputString];
+        }
+    }
+    return commonStrings;
+    
+}
+
 // Find all of the common rotated strings in a list of input strings .
 // Returns an array of an array of common strings.
 - (NSArray<NSArray<NSString*>*>*) findAllCommonRotatedStringsWithStrings:(NSArray<NSString*>*)inputStrings {
     NSMutableArray<NSArray<NSString*>*>* resultStrings = [[NSMutableArray alloc] init];
     NSMutableArray<NSString*>* remainingStrings = [inputStrings mutableCopy];
-    const NSUInteger kMinCommonStringsCount = 2;
+    const NSUInteger kMinCommonStringsCount = 1;
     while (remainingStrings.count >= kMinCommonStringsCount) {
         
         // find all common strings in the remaining strings
@@ -34,24 +52,6 @@
         }
     }
     return (NSArray<NSArray<NSString*>*>*) resultStrings;
-}
-
-// Find the first common rotated strings in a list of input strings .
-// Returns an array of common strings.
-- (NSArray<NSString*>*) findFirstCommonRotatedStrings:(NSArray<NSString*>*)inputStrings {
-    if (inputStrings.count  < 2) {
-        return inputStrings;
-    }
-    NSString *firstString = inputStrings[0];
-    NSMutableArray<NSString*>* commonStrings = [[NSMutableArray alloc] initWithObjects:firstString, nil];
-    for (NSUInteger index = 1; index < inputStrings.count; index++) {
-        NSString *inputString = inputStrings[index];
-        if ([self canRotateString:firstString toString:inputString]) {
-            [commonStrings addObject:inputString];
-        }
-    }
-    return commonStrings;
-
 }
 
 // Determine if string #1 can be rotated to string #2 by a constant rotation value
