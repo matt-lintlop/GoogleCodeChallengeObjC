@@ -22,6 +22,9 @@
         NSArray<NSString*>* commonRotatedStrings = [self findFirstCommonRotatedStrings:remainingStrings];
         if (commonRotatedStrings.count >= 1) {
             [resultStrings addObject:commonRotatedStrings];
+            if (remainingStrings.count == 1) {
+                return (NSArray<NSArray<NSString*>*>*) resultStrings;
+            }
         }
 
         // remove the common strings from the remaining strings
