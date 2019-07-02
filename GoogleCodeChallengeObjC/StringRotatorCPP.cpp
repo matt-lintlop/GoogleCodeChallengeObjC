@@ -9,9 +9,13 @@
 #include "StringRotatorCPP.hpp"
 
 vector<vector<char*>*>* StringRotatorCPP::findAllCommonRotatedStringsWithStrings(vector<char*>* inputStrings) {
+    
+    vector<vector<char*>*>* resultStrings = new vector<vector<char*>*>;
     return NULL;
 }
 vector<char*>* StringRotatorCPP::findFirstCommonRotatedStrings(vector<char*>* inputStrings) {
+
+    vector<vector<char*>*>* commonStrings = new vector<vector<char*>*>;
     return NULL;
 }
 
