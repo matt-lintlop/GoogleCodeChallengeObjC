@@ -11,14 +11,16 @@
 
 @implementation StringRotator
 
+// Find all of the common rotated strings in a list of input strings .
+// Returns an array of an array of common strings.
 - (NSArray<NSArray<NSString*>*>*) findAllCommonRotatedStringsWithStrings:(NSArray<NSString*>*)inputStrings {
     NSMutableArray<NSArray<NSString*>*>* resultStrings = [[NSMutableArray alloc] init];
     NSMutableArray<NSString*>* remainingStrings = [inputStrings mutableCopy];
     while (remainingStrings.count >= 1) {
         
         // find all common strings in the remaining strings
-        NSArray<NSString*>* commonRotatedStrings = [self findCommonRotatedStringsWithStrings:remainingStrings];
-        if (commonRotatedStrings.count >= 2) {
+        NSArray<NSString*>* commonRotatedStrings = [self findFirstCommonRotatedStrings:remainingStrings];
+        if (commonRotatedStrings.count >= 1) {
             [resultStrings addObject:commonRotatedStrings];
         }
 
@@ -30,7 +32,9 @@
     return (NSArray<NSArray<NSString*>*>*) resultStrings;
 }
 
-- (NSArray<NSString*>*) findCommonRotatedStringsWithStrings:(NSArray<NSString*>*)inputStrings {
+// Find the first common rotated strings in a list of input strings .
+// Returns an array of common strings.
+- (NSArray<NSString*>*) findFirstCommonRotatedStrings:(NSArray<NSString*>*)inputStrings {
     if (inputStrings.count  < 2) {
         return inputStrings;
     }
@@ -46,6 +50,9 @@
 
 }
 
+// Determine if string #1 can be rotated to string #2 by a constant rotation value
+// ex: (+) rotation value 1 = 'a'->'b'
+// ex: (-) rotation value -1 = 'b' ->'a'
 - (Boolean) canRotateString:(NSString*)string1 toString:(NSString*)string2 {
     if (string1.length != string2.length) {
         return NO;
