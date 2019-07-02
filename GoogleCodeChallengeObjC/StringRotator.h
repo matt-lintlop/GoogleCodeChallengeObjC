@@ -11,7 +11,6 @@
 
 @interface StringRotator : NSObject
 
-- (id) init;
 - (NSArray<NSArray<NSString*>*>*) findAllCommonRotatedStringsWithStrings:(NSArray<NSString*>*)inputStrings;
 - (NSArray<NSString*>*) findCommonRotatedStringsWithStrings:(NSArray<NSString*>*)inputStrings;
 - (Boolean) canRotateString:(NSString*)string1 toString:(NSString*)string2;

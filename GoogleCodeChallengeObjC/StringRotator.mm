@@ -11,13 +11,6 @@
 
 @implementation StringRotator
 
--(id)init {
-    if (self = [super init]) {
-        NSLog(@"Initialize the StringRotator");
-    }
-    return self;
-}
-
 - (NSArray<NSArray<NSString*>*>*) findAllCommonRotatedStringsWithStrings:(NSArray<NSString*>*)inputStrings {
     NSMutableArray<NSArray<NSString*>*>* resultStrings = [[NSMutableArray alloc] init];
     NSMutableArray<NSString*>* remainingStrings = [inputStrings mutableCopy];
@@ -79,7 +72,6 @@
     }
     return YES;
 }
-
 
 @end
 
