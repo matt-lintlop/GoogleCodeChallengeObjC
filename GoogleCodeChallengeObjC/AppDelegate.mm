@@ -18,6 +18,7 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     [self doGoogleCodeChallengeObjC];
+    [self doGoogleCodeChallengeCPP];
 }
 
 
@@ -38,6 +39,28 @@
     else {
         NSLog(@"Result is nil");
     }
+}
+
+- (void)doGoogleCodeChallengeCPP {
+    StringRotatorCPP *stringRotatorCPP = new StringRotatorCPP();
+    vector<char*>* inputStrings = new vector<char*>;
+    inputStrings->push_back((char*)"abbc");
+    inputStrings->push_back((char*)"cdde");
+    inputStrings->push_back((char*)"zaab");
+    inputStrings->push_back((char*)"cat");
+    inputStrings->push_back((char*)"thfg");
+    inputStrings->push_back((char*)"ed");
+    inputStrings->push_back((char*)"bzs");
+    NSLog(@"\n\n********************************************************");
+    NSLog(@"Google Objective-C Code Challenge C++:");
+    vector<vector<char*>*>* resultString = stringRotatorCPP->findAllCommonRotatedStringsWithStrings(inputStrings);
+    if (resultString != nil) {
+        printf("Result has %d strings\n", resultString->size());
+    }
+    else {
+        printf("Result in NULL\n");
+    }
+    delete stringRotatorCPP;
 }
 
 @end
